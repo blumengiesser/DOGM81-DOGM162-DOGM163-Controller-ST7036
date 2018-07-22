@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="DOG-M163">
+<description>DOG-SERIE 3,3V
+INKL. KONTROLLER FÜR 4-/8-BIT, SPI, DOG-M163</description>
+<wire x1="-27.5" y1="15.5" x2="27.5" y2="15.5" width="0.127" layer="21"/>
+<wire x1="-27.5" y1="15.5" x2="-27.5" y2="-15.5" width="0.127" layer="21"/>
+<wire x1="27.5" y1="15.5" x2="27.5" y2="-15.5" width="0.127" layer="21"/>
+<wire x1="-27.5" y1="-15.5" x2="27.5" y2="-15.5" width="0.127" layer="21"/>
+<wire x1="-26" y1="-9.78" x2="26" y2="-9.78" width="0.127" layer="21"/>
+<wire x1="-26" y1="6.22" x2="26" y2="6.22" width="0.127" layer="21"/>
+<wire x1="-26" y1="6.22" x2="-26" y2="-9.78" width="0.127" layer="21"/>
+<wire x1="26" y1="6.22" x2="26" y2="-9.78" width="0.127" layer="21"/>
+<pad name="31" x="-1.27" y="13.97" drill="0.8" rot="R270"/>
+<pad name="30" x="1.27" y="13.97" drill="0.8" rot="R270"/>
+<pad name="29" x="3.81" y="13.97" drill="0.8" rot="R270"/>
+<pad name="28" x="6.35" y="13.97" drill="0.8" rot="R270"/>
+<pad name="27" x="8.89" y="13.97" drill="0.8" rot="R270"/>
+<pad name="25" x="13.97" y="13.97" drill="0.8" rot="R270"/>
+<pad name="24" x="16.51" y="13.97" drill="0.8" rot="R270"/>
+<pad name="23" x="19.05" y="13.97" drill="0.8" rot="R270"/>
+<pad name="22" x="21.59" y="13.97" drill="0.8" rot="R270"/>
+<pad name="21" x="24.13" y="13.97" drill="0.8" rot="R270"/>
+<pad name="32" x="-3.81" y="13.97" drill="0.8" rot="R90"/>
+<pad name="33" x="-6.35" y="13.97" drill="0.8" rot="R90"/>
+<pad name="34" x="-8.89" y="13.97" drill="0.8" rot="R90"/>
+<pad name="35" x="-11.43" y="13.97" drill="0.8" rot="R90"/>
+<pad name="36" x="-13.97" y="13.97" drill="0.8" rot="R90"/>
+<pad name="37" x="-16.51" y="13.97" drill="0.8" rot="R90"/>
+<pad name="38" x="-19.05" y="13.97" drill="0.8" rot="R90"/>
+<pad name="39" x="-21.59" y="13.97" drill="0.8" rot="R90"/>
+<pad name="40" x="-24.13" y="13.97" drill="0.8" rot="R90"/>
+<pad name="1" x="-24.13" y="-13.97" drill="0.8" rot="R90"/>
+<pad name="2" x="-21.59" y="-13.97" drill="0.8" rot="R90"/>
+<pad name="19" x="21.59" y="-13.97" drill="0.8" rot="R90"/>
+<pad name="20" x="24.13" y="-13.97" drill="0.8" rot="R90"/>
+<pad name="26" x="11.43" y="13.97" drill="0.8" rot="R270"/>
+<text x="-24.13" y="-8.89" size="3.81" layer="21">123...</text>
+<text x="-24.13" y="-12.7" size="1.27" layer="21">1</text>
+<text x="22.86" y="-12.7" size="1.27" layer="21">20</text>
+<text x="22.86" y="11.43" size="1.27" layer="21">21</text>
+<text x="-25.4" y="11.43" size="1.27" layer="21">40</text>
+</package>
+</packages>
+<symbols>
+<symbol name="DOG-M163">
+<wire x1="43.18" y1="25.4" x2="43.18" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="43.18" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="25.4" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="25.4" x2="43.18" y2="25.4" width="0.254" layer="94"/>
+<text x="7.62" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<pin name="VDD" x="-10.16" y="20.32" visible="pin" length="middle"/>
+<pin name="VSS" x="-10.16" y="17.78" visible="pin" length="middle"/>
+<pin name="CAP1N" x="-10.16" y="12.7" visible="pin" length="middle"/>
+<pin name="CAP1P" x="-10.16" y="10.16" visible="pin" length="middle"/>
+<pin name="D7" x="0" y="-10.16" visible="pin" length="middle" rot="R90"/>
+<pin name="D6" x="2.54" y="-10.16" visible="pin" length="middle" rot="R90"/>
+<pin name="D5" x="5.08" y="-10.16" visible="pin" length="middle" rot="R90"/>
+<pin name="D4" x="7.62" y="-10.16" visible="pin" length="middle" rot="R90"/>
+<pin name="D3" x="10.16" y="-10.16" visible="pin" length="middle" rot="R90"/>
+<pin name="D2" x="12.7" y="-10.16" visible="pin" length="middle" rot="R90"/>
+<pin name="D1" x="15.24" y="-10.16" visible="pin" length="middle" rot="R90"/>
+<pin name="D0" x="17.78" y="-10.16" visible="pin" length="middle" rot="R90"/>
+<pin name="E" x="27.94" y="-10.16" visible="pin" length="middle" rot="R90"/>
+<pin name="R/_W" x="30.48" y="-10.16" visible="pin" length="middle" rot="R90"/>
+<pin name="RS" x="33.02" y="-10.16" visible="pin" length="middle" rot="R90"/>
+<pin name="_CSB" x="38.1" y="-10.16" visible="pin" length="middle" rot="R90"/>
+<pin name="_RESET" x="48.26" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="PSB" x="48.26" y="17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="A1+" x="5.08" y="30.48" visible="pin" length="middle" rot="R270"/>
+<pin name="C1-" x="10.16" y="30.48" visible="pin" length="middle" rot="R270"/>
+<pin name="A2+" x="33.02" y="30.48" visible="pin" length="middle" rot="R270"/>
+<pin name="C2-" x="27.94" y="30.48" visible="pin" length="middle" rot="R270"/>
+<pin name="VIN" x="-10.16" y="5.08" visible="pin" length="middle"/>
+<pin name="VOUT" x="-10.16" y="2.54" visible="pin" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DOG-M163" prefix="DOG-M163-#">
+<description>TECHNICAL DATA
+* HIGH-CONTRAST LCD SUPERTWIST DISPLAY
+* OPTIONAL LED BACKLIGHT UNITS IN DIFFERENT COLORS
+* 1x8, 2x16 AND 3x16 WITH 12.0 mm / 5.6 mm AND 3.6 mm CHARACTER HEIGHT
+* ST 7036 CONTROLLER FOR 4-BIT, 8-BIT AND SPI (4-WIRE) INTERFACE
+* POWER SUPPLY +3.3V OR +5V SINGLE SUPPLY (typically 250μA)
+* NO ADDITIONAL VOLTAGES REQUIRED
+* OPERATING TEMPERATURE RANGE -20 THROUGH +70°C
+* LED BACKLIGHT 3 through 80mA@3.3V or 2 through 40mA@5V
+* NO MOUNTING REQUIRED, SIMPLY SOLDER INTO PCB
+ORDERING CODE
+LCD MODULE 1x8 - 11.97mm EA DOGM081x-A
+LCD MODULE 2X16 - 5.57 mm EA DOGM162x-A
+LCD MODULE 3X16 - 3.65mm EA DOGM163x-A</description>
+<gates>
+<gate name="G$1" symbol="DOG-M163" x="-17.78" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="DOG-M163">
+<connects>
+<connect gate="G$1" pin="A1+" pad="1"/>
+<connect gate="G$1" pin="A2+" pad="20"/>
+<connect gate="G$1" pin="C1-" pad="2"/>
+<connect gate="G$1" pin="C2-" pad="19"/>
+<connect gate="G$1" pin="CAP1N" pad="21"/>
+<connect gate="G$1" pin="CAP1P" pad="22"/>
+<connect gate="G$1" pin="D0" pad="35"/>
+<connect gate="G$1" pin="D1" pad="34"/>
+<connect gate="G$1" pin="D2" pad="33"/>
+<connect gate="G$1" pin="D3" pad="32"/>
+<connect gate="G$1" pin="D4" pad="31"/>
+<connect gate="G$1" pin="D5" pad="30"/>
+<connect gate="G$1" pin="D6" pad="29"/>
+<connect gate="G$1" pin="D7" pad="28"/>
+<connect gate="G$1" pin="E" pad="36"/>
+<connect gate="G$1" pin="PSB" pad="23"/>
+<connect gate="G$1" pin="R/_W" pad="37"/>
+<connect gate="G$1" pin="RS" pad="39"/>
+<connect gate="G$1" pin="VDD" pad="26"/>
+<connect gate="G$1" pin="VIN" pad="25"/>
+<connect gate="G$1" pin="VOUT" pad="24"/>
+<connect gate="G$1" pin="VSS" pad="27"/>
+<connect gate="G$1" pin="_CSB" pad="38"/>
+<connect gate="G$1" pin="_RESET" pad="40"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
